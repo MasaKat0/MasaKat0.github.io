@@ -1,52 +1,98 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Masahiro Kato</title>
 
-  <title>Masa Kato</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+  </style>
 
 </head>
 
 <body>
+  <div id="home"></div>
 
-<!--navbar-inverseで黒色のナビゲーションへ-->
-<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="top-image">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <!--navbar-inverseで黒色のナビゲーションへ-->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
 
-   <!--ウィンドウ幅に合わせて可変-->
-  <div class="container-fluid">
-    <div class="navbar-header"></div>
+          <!--ウィンドウ幅に合わせて可変-->
+          <div class="container-fluid">
+            <div class="navbar-header"></div>
 
-    <div class="container">
-      <div class="row">
-        <a class="navbar-brand" href="#">Masa Kato</a>
+            <div class="container">
+              <div class="row">
+                <a class="navbar-brand" href="#">Masahiro Kato</a>
 
-        <div id="navbar" class="navbar-collapse collapse">
+                <div id="navbar" class="navbar-collapse collapse">
 
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#wrtings">Writings</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#artworks">Artworks</a></li>
-            <li><a href="#artworks">CV</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://github.com/MasaKat0" target="_blank">Github</a></li>
-            <li><a href="https://speakerdeck.com/masakat0" target="_blank">SpeakerDeck</a></li>
-            <li><a href="https://www.instagram.com/mkat0/?hl=ja" target="_blank">Instagram</a></li>
-            <li><a href="https://twitter.com/mkato_csecon" target="_blank">Twitter</a></li>
-       		</ul>
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#artworks">CV</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://github.com/MasaKat0" target="_blank">Github</a></li>
+                    <li><a href="https://speakerdeck.com/masakat0" target="_blank">SpeakerDeck</a></li>
+                    <li><a href="https://www.instagram.com/mkat0/?hl=ja" target="_blank">Instagram</a></li>
+                    <li><a href="https://twitter.com/mkato_csecon" target="_blank">Twitter</a></li>
+                  </ul>
 
-        </div><!--/.nav-collapse -->
-      </div><!--/.row -->
-    </div>
-  </div><!--/.container-fluid -->
-</nav>
+                </div>
+                <!--/.nav-collapse -->
+              </div>
+              <!--/.row -->
+            </div>
+          </div>
+          <!--/.container-fluid -->
+        </nav>
+      </div>
+
+
+      <div class="android-content mdl-layout__content">
+        <div class="title publication"><a name="publications"></a></div>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="title publication">
+            <h3>Publications and Preprints</h3>
+          </div>
+          <div class="logo-font android-sub-slogan">6. Kato, M. and Teshima, T.,<br>Non-negative Bregman divergence
+            minimization for deep direct density ratio estimation,<br>ICML 2021.</div>
+          <div class="logo-font android-sub-slogan">5. Togashi, T., Kato, M., Otani, M., Sakai, T., and Satoh. S.,<br>
+            Scalable Personalised Item Ranking through Parametric Density Estimation,<br>SIGIR 2021.</div>
+          <div class="logo-font android-sub-slogan">4. Togashi, T., Kato, M., Otani, M., and Satoh. S.,<br>Density-Ratio
+            Based Personalised Ranking from Implicit Feedbac,<br>The Web conference (WWW) 2021.</div>
+          <div class="logo-font android-sub-slogan">3. Kato, M., Ishihara, T., Honda, J., and Narita, Y.,<br>Adaptive
+            Experimental Design for Efficient Treatment Effect Estimation
+            ,<br>In NeurIPS 2020 Workshop Causal Discovery & Causality-Inspired Machine Learning.</div>
+          <div class="logo-font android-sub-slogan">2. Kato, M.*, Uehara, M.*, and Yasui, S., (* Equal
+            contribution)<br>Off-Policy Evaluation and Learning for External Validity under a Covariate
+            Shift,<br>In NeurIPS 2020 (Spotlight).</div>
+          <div class="logo-font android-sub-slogan">1. Kato, M., Teshima, T., and Honda, J.,<br>
+            Learning from positive and unlabeled data with a selection bias.Seventh International Conference on Learning
+            Representations,<br>In ICLR 2019.
+            <a href="https://openreview.net/forum?id=rJzLciCqKm">[openreview]</a>
+          </div>
 </body>
+
 </html>
