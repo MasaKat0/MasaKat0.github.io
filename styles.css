@@ -14,8 +14,110 @@
  * limitations under the License.
  */
 
+ div#content {
+  background-color: #99cc33;
+  width: 800px;
+  overflow: hidden;
+  }
+
+ div#main {
+  background-color: #ffffff;
+  width: 80%;
+  float: right;
+  }
+
+
 body {
   margin: 0;
+}
+
+ol {
+  font-size: 20px;
+  line-height:1.4;
+}
+
+a {
+  font-size: 18px;
+  line-height:1.5;
+}
+
+
+div#pagebody {
+	width:796px; margin:0 auto;	/*内容全体をセンタリング*/
+	text-align:left;	/*テキストの配置を左揃えにする*/
+}
+
+/*============================================
+サブメニュー（左カラム）
+============================================*/
+div#submenu {
+	width:160px;			/*幅の指定*/
+	margin:10px 10px 10px 25px;	/*位置調整（IE6のバグに注意）*/
+	display:inline;			/*IE6のマージン算出のバグ対策*/
+	float:left;			/*サブメニューのカラムを左寄せにする*/
+}
+
+/*サブメニューのヘッダ部分（余白調整・背景画像・背景色・文字サイズなど）*/
+div#submenu_header {
+	height:26px; padding:4px 0px 0px 0px;
+	background-image:url("images/bg_submenu_header.gif");
+	background-repeat:no-repeat; background-position:top;
+	background-color:#cccccc;
+	font-size:90%; font-weight:bold; text-align:center;
+}
+
+/*サブメニューのボディ部分（余白調整・背景画像・背景色）*/
+ul#submenu_body {
+	padding-bottom:6px;
+	background-image:url("images/bg_submenu_footer.gif");
+	background-repeat:no-repeat; background-position:bottom;
+	background-color:#cccccc;
+}
+ul#submenu_body li {
+	font-size:90%;			/*文字サイズを90%にする*/
+	list-style-type:none;		/*リストマーカー無しにする*/
+	display:inline;			/*リスト項目をインライン表示にする*/
+}
+ul#submenu_body li a {
+	display:block;			/*リンクをブロック表示にする*/
+	margin:0px 4px 0px 4px;		/*サブメニュー項目のマージン*/
+	padding:2px 0px 2px 20px;	/*サブメニュー項目のパディング*/
+	background-color:#eeeeee;	/*サブメニュー項目の背景色*/
+	text-decoration:none;		/*リンクの下線を無くす*/
+}
+ul#submenu_body li a:hover {
+	background-color:#ffffff;	/*リンクにマウスが乗ったら色を変える*/
+}
+
+/*============================================
+コンテンツ（中央と右の2カラム全体）
+============================================*/
+
+
+/*============================================
+ニュース（中央カラム）
+============================================*/
+div#news {
+	width:80%; padding-top:10px; /*幅の指定と位置調整*/
+	text-align: center;	/*カラムを左寄せにする*/
+}
+
+/*============================================
+ピックアップ（右カラム）
+============================================*/
+div#pickup {
+	width:150px; padding-top:10px; 		/*幅の指定と位置調整*/
+	float:right;				/*カラムを右寄せにする*/
+	background-image:url("images/bar_pickup.gif");	/*右カラムの背景画像*/
+	background-repeat:no-repeat;		 /*背景画像を繰り返さない*/
+}
+div#pickup ul {
+	margin-left:10px; 		/*左マージンを10px空ける*/
+	font-size:90%;			/*フォントサイズを90%にする*/
+}
+div#pickup li {
+	list-style-type:none; 		/*リストマーカー無しにする*/
+	line-height:1.8;		/*行の高さを1.8倍にする*/
 }
 
 /* Disable ugly boxes around images in IE10 */
