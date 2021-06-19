@@ -14,11 +14,29 @@
  * limitations under the License.
  */
 
- div#content {
-  background-color: #99cc33;
-  width: 800px;
-  overflow: hidden;
-  }
+ .wrapper2 {
+  width: 94%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main2 {
+  width: calc(100% - 300px);
+}
+.sidebar2 {
+  width: 280px;
+}
+.widget2 {
+  margin-bottom: 20px;
+}
+.widget2:last-child {
+  margin-bottom: 0;
+}
+.widget--sticky2 {
+  position: sticky;
+  top: 20px;
+}
 
  div#main {
   background-color: #ffffff;
