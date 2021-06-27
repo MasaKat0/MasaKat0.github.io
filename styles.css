@@ -14,6 +14,9 @@
  * limitations under the License.
  */
 
+ span.sentence {font-size: 20px;
+  line-height:1.4;}
+
  .wrapper2 {
   width: 94%;
   max-width: 1200px;
