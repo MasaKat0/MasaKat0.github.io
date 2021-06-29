@@ -14,6 +14,24 @@
  * limitations under the License.
  */
 
+.section-page {
+  padding: 50px 0;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-page .section-title {
+  margin-left: 30px;
+  padding-bottom: 12px;
+}
+
+.section-page .section-sentence {
+  margin-left: 30px;
+  font-size: 20px;
+  line-height:1.4;
+}
+
  span.sentence {font-size: 20px;
   line-height:1.4;}
 
@@ -500,18 +518,6 @@ a img{
   background-size: cover;
   height: 400px;
 }
-
-.android-more-section {
-  padding: 80px 0;
-  max-width: 1044px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-  .android-more-section .android-section-title {
-    margin-left: 12px;
-    padding-bottom: 24px;
-  }
 
 .android-card-container {
 }
