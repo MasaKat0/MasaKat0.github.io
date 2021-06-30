@@ -14,6 +14,16 @@
  * limitations under the License.
  */
 
+ div.left {
+	width: 60%;
+	float:left;
+}
+
+div.right {
+	width: 40%;
+	float:left;
+}
+
 .section-page {
   padding: 50px 0;
   max-width: 850px;
@@ -31,6 +41,31 @@
   font-size: 20px;
   line-height:1.4;
 }
+
+.section-page .edu-section-sentence {
+  margin-left: 5px;
+  font-size: 15px;
+  line-height:1.4;
+}
+
+.section-page .edu-section-big-sentence {
+  font-size: 17px;
+  color:black;
+  line-height:1.4;
+}
+
+.section-page .edu-section-title {
+  padding-top:30px;
+  font-size: 22px;
+  color:black;
+  line-height:1.4;
+}
+
+.section-page .contact-section-sentence {
+  font-size: 16px;
+  line-height:1.4;
+}
+
 
  span.sentence {font-size: 20px;
   line-height:1.4;}
@@ -544,7 +579,6 @@ a img{
   .android-card-container .mdl-card__supporting-text {
     height: auto;
     color: black;
-    padding-bottom: 56px;
   }
 
   .android-card-container .mdl-card__actions {
