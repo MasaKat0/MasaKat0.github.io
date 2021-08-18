@@ -14,19 +14,32 @@
  * limitations under the License.
  */
 
+ul.research {
+  font-size: 20px;
+  line-height:1.4;
+}
+
+
+ul.research li{
+  padding-top: 5px; 
+  padding-bottom: 5px;
+}
+
  div.left {
-	width: 60%;
+	width: 65%;
 	float:left;
+  padding-bottom: 130px;
 }
 
 div.right {
-	width: 40%;
+	width: 35%;
 	float:left;
+  padding-bottom: 130px;
 }
 
 .section-page {
-  padding: 50px 0;
-  max-width: 900px;
+  padding-top: 50px;
+  max-width: 920px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -40,31 +53,68 @@ div.right {
   margin-left: 30px;
   font-size: 20px;
   line-height:1.4;
+  
 }
 
-.section-page .edu-section-sentence {
+
+.section-index-page {
+  padding-bottom: 200px;
+  padding-top: 50px;
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-index-page .section-title {
+  margin-left: 30px;
+  padding-bottom: 12px;
+}
+
+.section-index-page .section-sentence {
+  margin-left: 30px;
+  font-size: 20px;
+  line-height:1.4;
+}
+
+.section-index-page .edu-section-sentence {
   margin-left: 5px;
   font-size: 15px;
   line-height:1.4;
 }
 
-.section-page .edu-section-big-sentence {
+.section-index-page .edu-section-big-sentence {
   font-size: 17px;
   color:black;
   line-height:1.4;
 }
 
-.section-page .edu-section-title {
+.section-index-page .edu-section-title {
   padding-top:30px;
   font-size: 22px;
   color:black;
   line-height:1.4;
 }
 
-.section-page .contact-section-sentence {
+.section-index-page .contact-section-sentence {
   font-size: 16px;
   line-height:1.4;
 }
+
+.section-index-page .contact-section-sentence {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  line-height:1.4;
+}
+
+.section-index-page .link-sentence {
+  font-size: 15px;
+  line-height:1.4;
+}
+
+
+
+
 
 
  span.sentence {font-size: 20px;
