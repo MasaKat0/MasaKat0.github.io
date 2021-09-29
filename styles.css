@@ -38,6 +38,7 @@ div.right {
 }
 
 .section-page {
+  padding-bottom: 50px;
   padding-top: 50px;
   max-width: 920px;
   margin-left: auto;
