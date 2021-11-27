@@ -28,13 +28,11 @@ ul.research li{
  div.left {
 	width: 65%;
 	float:left;
-  padding-bottom: 130px;
 }
 
 div.right {
 	width: 35%;
 	float:left;
-  padding-bottom: 130px;
 }
 
 .section-page {
@@ -60,11 +58,22 @@ div.right {
 
 
 .section-index-page {
-  padding-bottom: 200px;
-  padding-top: 50px;
   max-width: 920px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.section-index-page .section-first-margin {
+  page-break-after: always;
+  padding-bottom: 300px;
+  padding-top: 50px;
+}
+
+
+.section-index-page .section-margin {
+  page-break-after: always;
+  padding-bottom: 300px;
+  padding-top: 200px;
 }
 
 .section-index-page .section-title {
